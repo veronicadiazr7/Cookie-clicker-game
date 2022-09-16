@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  background-image: url(images/cookieclicke.webp);
+}
+.game-title {
+  position: absolute;
+  justify-content: center;
+  margin-left: 500px;
+  font-size: x-large;
+}
+main {
+  justify-content: center;
+  display: flex;
+}
+article {
+  margin-top: 100px;
+}
+.cookiebttn img {
+  width: 500px;
+  height: auto;
+  transition: transform 0.2s;
+}
+.cookiebttn img:hover {
+  transform: scale(1.2);
+}
+#cookie-number {
+  text-align: center;
+  font-size: 60px;
+}
+aside {
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 50px;
+  width: 300px;
+  height: 217px;
+  border: 7px solid rgb(30, 30, 100);
+  flex-direction: column;
+  border-radius: 8px;
+}
+#upgradebttn {
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: blanchedalmond;
+  border-radius: 8px;
+}

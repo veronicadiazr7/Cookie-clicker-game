@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Clicker Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="game-title">
+      <h1>Cookie Clicker Game</h1>
+    </header>
+    <main>
+      <article>
+        <div class="cookiebttn">
+          <img
+            id="cookie"
+            src="images/cookie.webp"
+            alt="chocolate chip cookie"
+            onclick="addcookie()"
+          />
+          <h2>Cookies:</h2>
+          <h2 id="cookieNumber">0</h2>
+        </div>
+      </article>
+      <aside>
+        <h2>Store</h2>
+        <div>
+          Cursors: <span id="cursor">0</span> <br />
+          Cursor Price: <span id="cursorPrice">20</span> <br />
+          <input type="button" id="buyCursor" value="Buy Cursor" />
+        </div>
+      </aside>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
